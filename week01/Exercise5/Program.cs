@@ -25,7 +25,7 @@ class Program
         // Call the SquareNumber method
         {
             Console.Write("Enter a number: ");
-            int input = int.Parse(Console.ReadLine());
+            int input = int.Parse(Console.ReadLine()); // to covert input to int
 
             int squared = SquareNumber(input);
 
